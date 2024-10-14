@@ -9,17 +9,14 @@ import {
   Col,
   UncontrolledTooltip,
 } from "reactstrap";
-import {GitHub, Instagram, Twitter} from "@mui/icons-material";
-
+import { GitHub, Instagram, Twitter } from "@mui/icons-material";
 
 export default function Footer() {
   return (
     <footer className="footer">
       <Container>
         <Row>
-          <Col md="3">
-            <h1 className="title">BLK•</h1>
-          </Col>
+          <Col md="2"></Col>
           <Col md="3">
             <Nav>
               <NavItem>
@@ -28,18 +25,8 @@ export default function Footer() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/landing-page" tag={Link}>
-                  Landing
-                </NavLink>
-              </NavItem>
-              <NavItem>
                 <NavLink to="/register-page" tag={Link}>
                   Register
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink to="/profile-page" tag={Link}>
-                  Profile
                 </NavLink>
               </NavItem>
             </Nav>
@@ -47,23 +34,13 @@ export default function Footer() {
           <Col md="3">
             <Nav>
               <NavItem>
-                <NavLink href="https://creative-tim.com/contact-us?ref=blkdsr-footer">
-                  Contact Us
+                <NavLink to="/privacy-policy" tag={Link}>
+                  Privacy Policy
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://creative-tim.com/about-us?ref=blkdsr-footer">
-                  About Us
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://creative-tim.com/blog?ref=blkdsr-footer">
-                  Blog
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://opensource.org/licenses/MIT">
-                  License
+                <NavLink href="/terms-of-service">
+                  Terms of service
                 </NavLink>
               </NavItem>
             </Nav>
@@ -90,7 +67,7 @@ export default function Footer() {
                 id="tooltip230450801"
                 target="_blank"
               >
-                <Instagram/>
+                <Instagram />
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip230450801">
                 Like us
@@ -102,7 +79,7 @@ export default function Footer() {
                 id="tooltip318450378"
                 target="_blank"
               >
-                <GitHub/>
+                <GitHub />
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip318450378">
                 Follow us

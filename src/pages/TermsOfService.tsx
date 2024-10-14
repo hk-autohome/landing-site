@@ -1,6 +1,10 @@
+import AutoHomeNavbar from "../components/Navbar.tsx";
+import Footer from "../components/Footer.tsx";
+
 const TermsOfService = () => {
-  return (
-    <div style={{padding: "20px", maxWidth: "800px", margin: "auto"}}>
+  return (<>
+    <AutoHomeNavbar/>
+    <div style={{padding: "20px", maxWidth: "1200px", margin: "auto", marginTop: 150}}>
       <h1>Terms of Service</h1>
       <p><strong>Effective Date:</strong> 9 October 2024</p>
       <p>Welcome to AutoHome! These Terms of Service ("Terms") govern your access to and use of our app ("App"),
@@ -62,7 +66,8 @@ const TermsOfService = () => {
         <p>Phone: <a href="tel:+917802004735">+91 780 2004 735</a></p>
       </div>
     </div>
-  );
+    <Footer/>
+  </>);
 };
 
 export default TermsOfService;

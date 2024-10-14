@@ -1,8 +1,8 @@
-import {HashRouter as Router, Route, Routes} from "react-router-dom";
-import PrivacyPolicy from "./PrivacyPolicy";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import PrivacyPolicy from "./pages/PrivacyPolicy.tsx";
 import "./App.css";
-import TermsOfService from "./TermsOfService.tsx";
-import HomePage from "./HomePage.tsx";
+import TermsOfService from "./pages/TermsOfService.tsx";
+import HomePage from "./pages/HomePage.tsx";
 
 function App() {
   return (

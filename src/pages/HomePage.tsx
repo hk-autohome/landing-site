@@ -8,9 +8,9 @@ import {
   Row,
   Col,
 } from "reactstrap";
-import Footer from "./components/Footer.js";
-import "./assets/Home.css";
-import AutoHomeNavbar from "./components/Navbar.tsx";
+import Footer from "../components/Footer.tsx";
+import "../assets/Home.css";
+import AutoHomeNavbar from "../components/Navbar.tsx";
 import {Android, GitHub, Instagram, Power, Security, ToggleOff, Twitter} from "@mui/icons-material";
 
 export default function LandingPage() {
