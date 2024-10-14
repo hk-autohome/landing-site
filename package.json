@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://harshkanjariya.github.io/autohome",
+  "homepage": "https://auto-home.in",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

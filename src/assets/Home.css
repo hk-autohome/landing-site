@@ -18994,7 +18994,7 @@ textarea.form-control:active {
 .landing-page,
 .profile-page,
 .register-page {
-  background-image: url("../../../../autohome/img/dots.png");
+  background-image: url("../../../../img/dots.png");
   background-size: contain;
 }
 

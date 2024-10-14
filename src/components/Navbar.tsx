@@ -55,7 +55,7 @@ export default function AutoHomeNavbar() {
           <NavbarBrand to="/" id="navbar-brand" tag={Link}>
             <span>
               <img
-                src="autohome/img/app-logo.jpeg"
+                src="/img/app-logo.jpeg"
                 alt="logo"
                 style={{
                   width: 50,

@@ -26,12 +26,12 @@ export default function LandingPage() {
       <AutoHomeNavbar />
       <div className="wrapper">
         <div className="page-header">
-          <img alt="..." className="path" src={"autohome/img/blob.png"} />
-          <img alt="..." className="path2" src={"autohome/img/path2.png"} />
-          <img alt="..." className="shapes triangle" src={"autohome/img/triunghiuri.png"} />
-          <img alt="..." className="shapes wave" src={"autohome/img/waves.png"} />
-          <img alt="..." className="shapes squares" src={"autohome/img/patrat.png"} />
-          <img alt="..." className="shapes circle" src={"autohome/img/cercuri.png"} />
+          <img alt="..." className="path" src={"/img/blob.png"} />
+          <img alt="..." className="path2" src={"/img/path2.png"} />
+          <img alt="..." className="shapes triangle" src={"/img/triunghiuri.png"} />
+          <img alt="..." className="shapes wave" src={"/img/waves.png"} />
+          <img alt="..." className="shapes squares" src={"/img/patrat.png"} />
+          <img alt="..." className="shapes circle" src={"/img/cercuri.png"} />
           <div className="content-center">
             <Row className="row-grid justify-content-between align-items-center text-left">
               <Col lg="6" md="6">
