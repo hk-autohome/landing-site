@@ -36,4 +36,4 @@ jobs:
           username: harshkanjariya@auto-home.in
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: dist/
-          server-dir: /landing-site # Remote directory on the server
+          server-dir: landing-site/
