@@ -43,6 +43,11 @@ export default function Footer() {
                   Terms of service
                 </NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink href="/account-delete">
+                  Account Deletion
+                </NavLink>
+              </NavItem>
             </Nav>
           </Col>
           <Col md="3">
